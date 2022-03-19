@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	float a, b, hasil;
-	char aritmatika;
+	int aritmatika;
 	
 	cout<<"PROGRAM KALKULATOR\n \n";
 	cout<<"Menu Operasi : "<<endl;
@@ -23,16 +23,15 @@ int main(){
 	cin>> b;
 	
 	cout<<"\nHasil perhitungan: ";
-	cout<< a << aritmatika << b;
 	
-	if (aritmatika == '1'){
+	if (aritmatika == 1){
 		hasil = a + b;
-	    cout<<"Hasil"<<a<<"+"<<b<<"="<<tambah<<(a,b)
-	}else if (aritmatika == '2'){
+	    cout<<a<<"+"<<b<<"="<<hasil;
+	}else if (aritmatika == 2){
 		hasil = a - b;
-	}else if (aritmatika == '3'){
+	}else if (aritmatika == 3){
 		hasil = a * b;
-	}else if (aritmatika == '4'){
+	}else if (aritmatika == 4){
 		hasil = a / b;
 	}else{
 		cout << "Operator anda salah"<<endl;
