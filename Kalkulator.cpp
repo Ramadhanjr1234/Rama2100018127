@@ -29,10 +29,13 @@ int main(){
 	    cout<<a<<"+"<<b<<"="<<hasil;
 	}else if (aritmatika == 2){
 		hasil = a - b;
+		cout<<a<<"-"<<b<<"="<<hasil;
 	}else if (aritmatika == 3){
 		hasil = a * b;
+		cout<<a<<"*"<<b<<"="<<hasil;
 	}else if (aritmatika == 4){
 		hasil = a / b;
+		cout<<a<<"/"<<b<<"="<<hasil;
 	}else{
 		cout << "Operator anda salah"<<endl;
 	}
